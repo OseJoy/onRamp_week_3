@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div>
+        <form class="bookingForm" method="post" id="reservation">  
+            <label for="name"></label>
+            <input id="name" type="text" placeholder="Name" required>
+            <br>
+            <br>
+            <label for="email"></label>
+            <input id="email" type="email" placeholder="Email" required>
+            <br>
+            <br>
+            <label for="date">Pick a date</label>
+            <input id="date" type="date">
+            <br>
+            <br>
+            <label for="time">Pick a time</label>
+            <input id="time" type="time">
+            <br>
+            <br>
+            <label for="number"></label>
+            <span class=numberDecrement>-</span>
+            <input id="number" type="#">
+            <span class="numberIncrement">+</span>
+            <br>
+            <br>
+            <button class="reserveButton" type="submit">MAKE RESERVATION</button>
+        </form>
+    </div>
+</body>
+<script src="/dom.js"></script>
+</html>
