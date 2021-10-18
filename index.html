@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <div>
@@ -26,15 +26,19 @@
             <input id="time" type="time">
             <br>
             <br>
-            <label for="number"></label>
-            <span class=numberDecrement>-</span>
-            <input id="number" type="#">
-            <span class="numberIncrement">+</span>
-            <br>
-            <br>
+            <section>
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="1 Person" maxlength="10" max="50" size="1" id="number" />
+                <input type="button" onclick="incrementValue()" value="+" />
+                <!-- <button id="decrease">-</button>
+                <input type="text" >
+                <button id="increase">+</button> -->
+                <br>
+                <br>
+            </section>
             <button class="reserveButton" type="submit">MAKE RESERVATION</button>
         </form>
     </div>
 </body>
-<script src="/dom.js"></script>
+<script src="./dom.js"></script>
 </html>
